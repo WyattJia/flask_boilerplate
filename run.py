@@ -16,5 +16,3 @@ server = HTTPServer(WSGIContainer(app))
 
 if __name__ == '__main__':
     app.run(debug=True)
-    # server.listen(8047)
-    # IOLoop.instance().start()
