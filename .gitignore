@@ -102,3 +102,4 @@ ENV/
 
 # jetbrain files
 .idea/
+.doudou_env/
