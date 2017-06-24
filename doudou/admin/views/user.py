@@ -241,3 +241,4 @@ def avatar_upload():
         return 'success'
     except MySQLError, e:
         return u'error'
+

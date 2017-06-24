@@ -12,9 +12,9 @@ from tornado.ioloop import IOLoop
 
 app = create_app('config.cfg')
 
-server = HTTPServer(WSGIContainer(app))
+# server = HTTPServer(WSGIContainer(app))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
     # server.listen(8047)
     # IOLoop.instance().start()
