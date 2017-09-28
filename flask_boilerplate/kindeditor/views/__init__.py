@@ -2,7 +2,7 @@
 # __author__ = 'Wells Jia'
 # KindEditor视图
 
-from doudou.kindeditor import kindedit
+from flask_boilerplate.kindeditor import kindedit
 
 from flask.ext.login import login_required
 

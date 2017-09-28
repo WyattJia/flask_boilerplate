@@ -102,4 +102,4 @@ ENV/
 
 # jetbrain files
 .idea/
-.doudou_env/
+.flask_boilerplate_env/

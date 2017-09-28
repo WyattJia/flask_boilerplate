@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # __author__ = 'Wells Jia'
-# doudou 后端首页
+# flask_boilerplate 后端首页
 
 from flask import make_response, request
 from flask import url_for, g, redirect, current_app
@@ -9,13 +9,13 @@ from flask.ext.login import current_user, login_required, \
     login_user, logout_user
 from sqlalchemy import or_
 
-from doudou.admin import admin, theme
-from doudou.extensions import lgm
-from doudou.models import User
-from doudou.forms import LoginForm
-from doudou.helpers import render_theme_template
-from doudou.helpers import verify_password
-from doudou.extensions import cache
+from flask_boilerplate.admin import admin, theme
+from flask_boilerplate.extensions import lgm
+from flask_boilerplate.models import User
+from flask_boilerplate.forms import LoginForm
+from flask_boilerplate.helpers import render_theme_template
+from flask_boilerplate.helpers import verify_password
+from flask_boilerplate.extensions import cache
 
 
 @admin.before_request

@@ -2,10 +2,10 @@
 # __author__ = 'Wells Jia'
 # Sort Model
 
-from doudou.extensions import db
+from flask_boilerplate.extensions import db
 
 # 表前缀
-prefix = 'doudou'
+prefix = 'flask_boilerplate'
 
 
 class Sort(db.Model):

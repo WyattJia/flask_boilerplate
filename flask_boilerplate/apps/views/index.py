@@ -8,9 +8,9 @@ import os
 
 from flask import session, make_response, send_file
 
-from doudou.extensions import db
-from doudou.apps import app
-from doudou.createVcode import create_valicode
+from flask_boilerplate.extensions import db
+from flask_boilerplate.apps import app
+from flask_boilerplate.createVcode import create_valicode
 
 
 @app.route('/')

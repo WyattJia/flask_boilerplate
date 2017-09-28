@@ -8,7 +8,7 @@
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.login import LoginManager
 
-from doudou.rediscache import Cache
+from flask_boilerplate.rediscache import Cache
 from redis import Redis
 
 __all__ = ["db", "cache", "rds", "lgm"]

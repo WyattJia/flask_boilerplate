@@ -8,13 +8,13 @@ from flask import request, flash, redirect, url_for, \
 from flask.ext.login import login_required
 from MySQLdb import MySQLError
 
-from doudou.models import Sort
-from doudou.admin import admin, theme
-from doudou.forms import SortForm
-from doudou.helpers import render_theme_template
-from doudou.helpers import get_sorts, update_sorts
-from doudou.helpers import _id_match
-from doudou.extensions import db
+from flask_boilerplate.models import Sort
+from flask_boilerplate.admin import admin, theme
+from flask_boilerplate.forms import SortForm
+from flask_boilerplate.helpers import render_theme_template
+from flask_boilerplate.helpers import get_sorts, update_sorts
+from flask_boilerplate.helpers import _id_match
+from flask_boilerplate.extensions import db
 
 
 @admin.route('/sort', methods=["GET", "POST"])

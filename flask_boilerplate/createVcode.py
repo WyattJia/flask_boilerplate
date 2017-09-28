@@ -71,7 +71,7 @@ def create_valicode(size=(200,60), chars=chars, mode='RGB', bg_color=(255,255,25
 
         basedir = os.path.dirname(os.path.dirname(__file__))
         #print basedir
-        s_font = os.path.join(basedir, 'doudou/apps/static/DroidSans.ttf')
+        s_font = os.path.join(basedir, 'flask_boilerplate/apps/static/DroidSans.ttf')
         font = ImageFont.truetype(s_font, font_size)
         font_width, font_height= font.getsize(strs)
         start = 13

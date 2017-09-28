@@ -2,10 +2,10 @@
 # __author__ = 'Wells Jia'
 # User Model
 
-from doudou.extensions import db
+from flask_boilerplate.extensions import db
 
 # 表前缀
-prefix = 'doudou'
+prefix = 'flask_boilerplate'
 
 
 ROLE_ADMIN = '0'

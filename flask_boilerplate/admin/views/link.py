@@ -8,13 +8,13 @@ from flask import request, flash, redirect, url_for, \
 from flask.ext.login import login_required
 from MySQLdb import MySQLError
 
-from doudou.models import Link
-from doudou.admin import admin, theme
-from doudou.forms import LinkForm
-from doudou.helpers import render_theme_template
-from doudou.helpers import get_links, update_links
-from doudou.helpers import _id_match
-from doudou.extensions import db
+from flask_boilerplate.models import Link
+from flask_boilerplate.admin import admin, theme
+from flask_boilerplate.forms import LinkForm
+from flask_boilerplate.helpers import render_theme_template
+from flask_boilerplate.helpers import get_links, update_links
+from flask_boilerplate.helpers import _id_match
+from flask_boilerplate.extensions import db
 
 
 @admin.route('/link', methods=["GET", "POST"])

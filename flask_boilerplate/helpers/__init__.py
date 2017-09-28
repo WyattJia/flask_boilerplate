@@ -9,8 +9,8 @@ import hmac
 
 from flask import render_template
 
-from doudou import models
-from doudou import cache
+from flask_boilerplate import models
+from flask_boilerplate import cache
 
 from base64 import b64encode
 from hashlib import sha512

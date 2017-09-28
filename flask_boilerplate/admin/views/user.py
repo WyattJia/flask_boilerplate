@@ -14,13 +14,13 @@ from base64 import b64encode
 from flask.ext.login import login_required
 from MySQLdb import MySQLError
 
-from doudou.models import User
-from doudou.admin import admin, theme
-from doudou.forms import UserForm, EditUserForm, ProfileForm
-from doudou.helpers import render_theme_template
-from doudou.helpers import get_users, update_users
-from doudou.helpers import _id_match, hash_password
-from doudou.extensions import db
+from flask_boilerplate.models import User
+from flask_boilerplate.admin import admin, theme
+from flask_boilerplate.forms import UserForm, EditUserForm, ProfileForm
+from flask_boilerplate.helpers import render_theme_template
+from flask_boilerplate.helpers import get_users, update_users
+from flask_boilerplate.helpers import _id_match, hash_password
+from flask_boilerplate.extensions import db
 
 import os, time
 
