@@ -1,0 +1,14 @@
+version: "0.0.1"
+
+services:
+    flask_boilerplate: 
+    build: .
+    env_file:
+      - flask_boilerplate.env
+    # volumes:
+    #   - ".aws:/root/.aws:ro"
+    entrypoint:
+      - bash
+      - /app/docker-entrypoint.sh
+    ports:
+      - "5001:5001"
