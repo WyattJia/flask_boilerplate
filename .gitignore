@@ -103,3 +103,4 @@ ENV/
 # jetbrain files
 .idea/
 .flask_boilerplate_env/
+dump.rdb
