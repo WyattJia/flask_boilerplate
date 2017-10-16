@@ -104,3 +104,4 @@ ENV/
 .idea/
 .flask_boilerplate_env/
 dump.rdb
+.vscode
