@@ -1,4 +1,5 @@
-from .sortModel import *
-from .linkModel import *
-from .userModel import *
-from .blogModel import *
+from . import sortModel
+from . import linkModel
+from . import userModel
+from . import blogModel
+
