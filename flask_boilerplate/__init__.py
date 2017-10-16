@@ -11,14 +11,12 @@ from .extensions import db, rds
 from .extensions import lgm, cache
 from . import apps
 from . import admin
-from . import kindeditor
 from . import sessions
 
 
 DEFAULT_BLUEPRINTS = (
     (apps.app, ""),
-    (admin.admin, "/admin"),
-    (kindeditor.kindedit, '/attached')
+    (admin.admin, "/admin")
 )
 
 
